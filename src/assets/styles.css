@@ -1,0 +1,95 @@
+nav {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 100;
+    margin-bottom: 3rem;
+}
+
+#page-container {
+    margin-top: 6rem;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+}
+.card .card-image .card-title{
+    font-weight: bold;
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+
+#disabled {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#disabled-pointer {
+    cursor: alias;
+}
+
+#sign-in {
+    display: flex;
+    margin-top: 0.9rem;
+    border-radius: 8px;
+}
+
+#google-logo {
+    margin-right: 4px;
+}
+
+#remove-icon {
+    margin-left: 8px;
+    color: #26a69a;
+}
+
+#page-container-form {
+    margin-top: 6rem;
+}
+
+#form-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collection-order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+#modal1 {
+    z-index: 1003; 
+    display: block !important; 
+    opacity: 1; 
+    top: 25vh; 
+    transform: scaleX(1) scaleY(1);
+}
